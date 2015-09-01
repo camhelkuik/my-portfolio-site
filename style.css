@@ -330,10 +330,9 @@ h1, p {
 /*Contact Setion*/
 .contact {
   width: 100%;
-  height: 700px;
+  height: 500px;
   background-color: black;
   position: relative;
-  margin-top: -20px;
 }
 
 .contact--title{
@@ -342,7 +341,7 @@ h1, p {
   font-family: Maxim;
   font-size: 125px;
   position: absolute;
-  top: 130px;
+  top: 80px;
   right: -165px;
   z-index: 2;
 }
@@ -355,4 +354,85 @@ h1, p {
     z-index: 1;
     width: 50%;
     height: 100%;
+}
+
+.contact--all {
+position: relative;
+top: 55px;
+}
+
+.contact--email-title{
+  float: right;
+  width: 50%;
+  font-family: Murmers;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 15px
+}
+
+.email-title--address {
+    position: absolute;
+    top: 35px;
+    left: 145px;
+    font-family: Murmers;
+    font-size: 25px;
+}
+
+.contact--git{
+  float: right;
+  width: 50%;
+  font-family: Murmers;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 15px
+}
+
+.git--address {
+    position: absolute;
+    top: 119px;
+    left: 160px;
+    font-family: Murmers;
+    font-size: 25px;
+}
+
+.contact--linkedin{
+  float: right;
+  width: 50%;
+  font-family: Murmers;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 176px;
+  left: 15px
+}
+
+.linkedin--address {
+    position: absolute;
+    top: 206px;
+    left: 184px;
+    font-family: Murmers;
+    font-size: 25px;
+}
+
+.contact--twitter{
+  float: right;
+  width: 50%;
+  font-family: Murmers;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 260px;
+  left: 15px
+}
+
+.twitter--address {
+    position: absolute;
+    top: 291px;
+    left: 189px;
+    font-family: Murmers;
+    font-size: 25px;
 }
