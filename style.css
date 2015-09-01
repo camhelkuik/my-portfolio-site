@@ -83,17 +83,81 @@ h1, p {
   width: 100%;
   height: 650px;
   background-color: black;
+  position: relative;
 }
 
 .web--title{
   float: right;
   width: 50%;
   font-family: Maxim;
-  font-size: 100px;
+  font-size: 125px;
   position: absolute;
+  top: 130px;
+  right: -165px;
 }
 
 .web--new-grit{
   float: left;
   width: 50%;
+  position: relative;
+}
+
+.new-grit--img {
+    width: 35%;
+    position: absolute;
+    top: 73px;
+    right: 13px;
+}
+
+.new-grit--title{
+  float: right;
+  width: 50%;
+  font-family: Murmers;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 113px;
+  left: 35px;
+}
+
+.new-grit--content {
+    position: absolute;
+    top: 165px;
+    left: 17px;
+    font-family: Murmers;
+    font-size: 25px;
+}
+
+.web--megan-smith{
+  float: left;
+  width: 50%;
+  position: relative;
+  top: 325px;
+  left: 5px;
+}
+
+.megan-smith--img {
+    width: 35%;
+    position: absolute;
+    top: 11px;
+    right: 13px;
+}
+
+.megan-smith--title{
+  float: right;
+  width: 50%;
+  font-family: Murmers;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 55px;
+  left: 35px;
+}
+
+.megan-smith--content {
+    position: absolute;
+    top: 165px;
+    left: 17px;
+    font-family: Murmers;
+    font-size: 25px;
 }
