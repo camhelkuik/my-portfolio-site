@@ -7,18 +7,18 @@ html {
 }
 
 @font-face {
-    font-family: Maxim;
-    src: url(../Fonts/Maxim.otf);
+  font-family: Maxim;
+  src: url(../Fonts/Maxim.otf);
 }
 
 @font-face {
-    font-family: Murmers;
-    src: url(../Fonts/Murmers.otf);
+  font-family: Murmers;
+  src: url(../Fonts/Murmers.otf);
 }
 
 body{
   width: 100%;
-  margin: 0 0 0 0 ;
+  margin: 0px 0px 0px 0px;
 }
 
 h1, p {
@@ -66,15 +66,15 @@ h1, p {
 }
 
 .title--overlay {
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:rgba(252, 215, 61, 0.30);
-    z-index: 1;
-    width: 49%;
-    height: 106%;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:rgba(252, 215, 61, 0.30);
+  z-index: 1;
+  width: 49%;
+  height: 106%;
 }
 
 /*Web Section*/
@@ -97,13 +97,13 @@ h1, p {
 }
 
 .web--overlay {
-    position:absolute;
-    top:0;
-    right:0;
-    background-color:rgba(252, 215, 61, 0.30);
-    z-index: 1;
-    width: 50%;
-    height: 100%;
+  position:absolute;
+  top:0;
+  right:0;
+  background-color:rgba(252, 215, 61, 0.30);
+  z-index: 1;
+  width: 50%;
+  height: 100%;
 }
 
 .web--new-grit{
@@ -113,10 +113,10 @@ h1, p {
 }
 
 .new-grit--img {
-    width: 35%;
-    position: absolute;
-    top: 73px;
-    right: 13px;
+  width: 35%;
+  position: absolute;
+  top: 73px;
+  right: 13px;
 }
 
 .new-grit--title{
@@ -131,11 +131,11 @@ h1, p {
 }
 
 .new-grit--content {
-    position: absolute;
-    top: 165px;
-    left: 17px;
-    font-family: Murmers;
-    font-size: 25px;
+  position: absolute;
+  top: 165px;
+  left: 17px;
+  font-family: Murmers;
+  font-size: 25px;
 }
 
 .web--megan-smith{
@@ -147,10 +147,10 @@ h1, p {
 }
 
 .megan-smith--img {
-    width: 35%;
-    position: absolute;
-    top: 11px;
-    right: 13px;
+  width: 35%;
+  position: absolute;
+  top: 11px;
+  right: 13px;
 }
 
 .megan-smith--title{
@@ -165,11 +165,11 @@ h1, p {
 }
 
 .megan-smith--content {
-    position: absolute;
-    top: 165px;
-    left: 17px;
-    font-family: Murmers;
-    font-size: 25px;
+  position: absolute;
+  top: 165px;
+  left: 17px;
+  font-family: Murmers;
+  font-size: 25px;
 }
 
 /*Code Section*/
@@ -192,13 +192,13 @@ h1, p {
 }
 
 .code--overlay {
-    position:absolute;
-    top:0;
-    left:0;
-    background-color:rgba(252, 215, 61, 0.30);
-    z-index: 1;
-    width: 50%;
-    height: 100%;
+  position:absolute;
+  top:0;
+  left:0;
+  background-color:rgba(252, 215, 61, 0.30);
+  z-index: 1;
+  width: 50%;
+  height: 100%;
 }
 
 .code--orm{
@@ -210,10 +210,10 @@ h1, p {
 }
 
 .orm--img {
-    width: 35%;
-    position: absolute;
-    top: 30px;
-    right: 25px;
+  width: 35%;
+  position: absolute;
+  top: 30px;
+  right: 25px;
 }
 
 .orm--title{
@@ -228,11 +228,11 @@ h1, p {
 }
 
 .orm--content {
-    position: absolute;
-    top: 165px;
-    left: 17px;
-    font-family: Murmers;
-    font-size: 25px;
+  position: absolute;
+  top: 165px;
+  left: 17px;
+  font-family: Murmers;
+  font-size: 25px;
 }
 
 .code--order-supply{
@@ -244,10 +244,10 @@ h1, p {
 }
 
 .order-supply--img {
-    width: 35%;
-    position: absolute;
-    top: 30px;
-    right: 25px;
+  width: 35%;
+  position: absolute;
+  top: 30px;
+  right: 25px;
 }
 
 .order-supply--title{
@@ -262,11 +262,11 @@ h1, p {
 }
 
 .order-supply--content {
-    position: absolute;
-    top: 165px;
-    left: 17px;
-    font-family: Murmers;
-    font-size: 25px;
+  position: absolute;
+  top: 165px;
+  left: 17px;
+  font-family: Murmers;
+  font-size: 25px;
 }
 
 /*Resume Section*/
@@ -289,13 +289,13 @@ h1, p {
 }
 
 .resume--overlay {
-    position:absolute;
-    top:0;
-    right:0;
-    background-color:rgba(252, 215, 61, 0.30);
-    z-index: 1;
-    width: 50%;
-    height: 100%;
+  position:absolute;
+  top:0;
+  right:0;
+  background-color:rgba(252, 215, 61, 0.30);
+  z-index: 1;
+  width: 50%;
+  height: 100%;
 }
 
 /*Other Section*/
@@ -318,13 +318,81 @@ h1, p {
 }
 
 .other--overlay {
-    position:absolute;
-    top:0;
-    left:0;
-    background-color:rgba(252, 215, 61, 0.30);
-    z-index: 1;
-    width: 50%;
-    height: 100%;
+  position:absolute;
+  top:0;
+  left:0;
+  background-color:rgba(252, 215, 61, 0.30);
+  z-index: 1;
+  width: 50%;
+  height: 100%;
+}
+
+.other--VF{
+  float: right;
+  width: 50%;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.VF--img {
+  width: 25%;
+  position: absolute;
+  top: 16px;
+  right: 25px;
+}
+
+.VF--title{
+  float: right;
+  width: 50%;
+  font-family: Murmers;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 80px;
+  left: 160px
+}
+
+.VF--content {
+  position: absolute;
+  top: 165px;
+  left: 17px;
+  font-family: Murmers;
+  font-size: 25px;
+}
+
+.other--BKB{
+  float: right;
+  width: 50%;
+  position: relative;
+  top: 350px;
+  left: 5px;
+}
+
+.BKB--img {
+  width: 35%;
+  position: absolute;
+  top: 30px;
+  right: 25px;
+}
+
+.BKB--title{
+  float: right;
+  width: 50%;
+  font-family: Murmers;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 55px;
+  left: 110px;
+}
+
+.BKB--content {
+  position: absolute;
+  top: 165px;
+  left: 17px;
+  font-family: Murmers;
+  font-size: 25px;
 }
 
 /*Contact Setion*/
@@ -347,18 +415,18 @@ h1, p {
 }
 
 .contact--overlay {
-    position:absolute;
-    top:0;
-    right:0;
-    background-color:rgba(252, 215, 61, 0.30);
-    z-index: 1;
-    width: 50%;
-    height: 100%;
+  position:absolute;
+  top:0;
+  right:0;
+  background-color:rgba(252, 215, 61, 0.30);
+  z-index: 1;
+  width: 50%;
+  height: 100%;
 }
 
 .contact--all {
-position: relative;
-top: 55px;
+  position: relative;
+  top: 55px;
 }
 
 .contact--email-title{
@@ -373,11 +441,11 @@ top: 55px;
 }
 
 .email-title--address {
-    position: absolute;
-    top: 35px;
-    left: 145px;
-    font-family: Murmers;
-    font-size: 25px;
+  position: absolute;
+  top: 35px;
+  left: 145px;
+  font-family: Murmers;
+  font-size: 25px;
 }
 
 .contact--git{
@@ -392,11 +460,11 @@ top: 55px;
 }
 
 .git--address {
-    position: absolute;
-    top: 119px;
-    left: 160px;
-    font-family: Murmers;
-    font-size: 25px;
+  position: absolute;
+  top: 119px;
+  left: 160px;
+  font-family: Murmers;
+  font-size: 25px;
 }
 
 .contact--linkedin{
@@ -411,11 +479,11 @@ top: 55px;
 }
 
 .linkedin--address {
-    position: absolute;
-    top: 206px;
-    left: 184px;
-    font-family: Murmers;
-    font-size: 25px;
+  position: absolute;
+  top: 206px;
+  left: 184px;
+  font-family: Murmers;
+  font-size: 25px;
 }
 
 .contact--twitter{
@@ -430,9 +498,9 @@ top: 55px;
 }
 
 .twitter--address {
-    position: absolute;
-    top: 291px;
-    left: 189px;
-    font-family: Murmers;
-    font-size: 25px;
+  position: absolute;
+  top: 291px;
+  left: 189px;
+  font-family: Murmers;
+  font-size: 25px;
 }
