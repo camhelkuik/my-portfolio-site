@@ -299,8 +299,46 @@ h1, p {
   height: 100%;
 }
 
+.resume--content{
+  float: left;
+  width: 50%;
+  position: relative;
+}
+
 .content--skills {
   color: white;
+  font-family: Murmers;
+}
+
+.content--skills li{
+  list-style-type: none;
+}
+
+.content--education{
+  float: left;
+  width: 50%;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.OCS--title{
+  float: right;
+  width: 50%;
+  font-family: Murmers;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 80px;
+  left: 160px
+}
+
+.OCS--info {
+  position: absolute;
+  top: 165px;
+  left: 17px;
+  font-family: Murmers;
+  font-size: 25px;
 }
 
 /*Other Section*/
