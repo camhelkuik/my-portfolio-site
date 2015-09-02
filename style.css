@@ -28,7 +28,7 @@ h1, p {
 /*Home Section*/
 .home{
   width: 100%;
-  height: 650px;
+  height: 615px;
   background-color: black;
 }
 
@@ -69,12 +69,10 @@ h1, p {
   position:absolute;
   top:0;
   left:0;
-  right:0;
-  bottom:0;
-  background-color:rgba(252, 215, 61, 0.30);
+  background-color:rgba(255, 200, 11, 0.30);
   z-index: 1;
-  width: 49%;
-  height: 106%;
+  width: 50%;
+  height: 100%;
 }
 
 /*Web Section*/
@@ -100,7 +98,7 @@ h1, p {
   position:absolute;
   top:0;
   right:0;
-  background-color:rgba(252, 215, 61, 0.30);
+  background-color:rgba(255, 200, 11, 0.80);
   z-index: 1;
   width: 50%;
   height: 100%;
@@ -195,7 +193,7 @@ h1, p {
   position:absolute;
   top:0;
   left:0;
-  background-color:rgba(252, 215, 61, 0.30);
+  background-color:rgba(255, 200, 11, 0.80);
   z-index: 1;
   width: 50%;
   height: 100%;
@@ -292,7 +290,7 @@ h1, p {
   position:absolute;
   top:0;
   right:0;
-  background-color:rgba(252, 215, 61, 0.30);
+  background-color:rgba(255, 200, 11, 0.80);
   z-index: 1;
   width: 50%;
   height: 100%;
@@ -321,7 +319,7 @@ h1, p {
   position:absolute;
   top:0;
   left:0;
-  background-color:rgba(252, 215, 61, 0.30);
+  background-color:rgba(255, 200, 11, 0.80);
   z-index: 1;
   width: 50%;
   height: 100%;
@@ -418,7 +416,7 @@ h1, p {
   position:absolute;
   top:0;
   right:0;
-  background-color:rgba(252, 215, 61, 0.30);
+  background-color:rgba(255, 200, 11, 0.80);
   z-index: 1;
   width: 50%;
   height: 100%;
