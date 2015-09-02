@@ -61,8 +61,10 @@ h1, p {
 .intro--paragraph{
   position: relative;
   top: 205px;
+  left: 10px;
   font-family: Murmers;
   font-size: 35px;
+  padding-right: 30px;
 }
 
 .title--overlay {
