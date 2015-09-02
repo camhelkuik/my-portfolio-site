@@ -275,6 +275,7 @@ h1, p {
   height: 700px;
   background-color: black;
   position: relative;
+  margin-top: -16px;
 }
 
 .resume--title{
@@ -296,6 +297,10 @@ h1, p {
   z-index: 1;
   width: 50%;
   height: 100%;
+}
+
+.content--skills {
+  color: white;
 }
 
 /*Other Section*/
