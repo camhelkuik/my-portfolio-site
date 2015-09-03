@@ -304,6 +304,14 @@ h1, p {
   position: relative;
 }
 
+.content--title{
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  font-family: Murmers;
+  font-size: 30px;
+}
+
 .content--skills {
   color: white;
   font-family: Murmers;
@@ -313,10 +321,30 @@ h1, p {
   list-style-type: none;
 }
 
+.skills--1{
+  
+}
+
+.skills--2{
+  
+}
+
+.skills--3{
+  
+}
+
 .content--education{
   position: relative;
   top: 5px;
   left: 5px;
+}
+
+.education--title{
+  position: absolute;
+  top: -53px;
+  left: 16px;
+  font-family: Murmers;
+  font-size: 30px;
 }
 
 .OCS--title{
@@ -348,6 +376,37 @@ h1, p {
 .UNL--info {
   position: absolute;
   top: 104px;
+  left: 17px;
+  font-family: Murmers;
+  font-size: 20px;
+}
+
+.content--jobs{
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.jobs--title {
+  position: absolute;
+  bottom: -223px;
+  left: 15px;
+  font-family: Murmers;
+  font-size: 35px;
+}
+
+.artifact--title{
+  font-family: Murmers;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  bottom: -250px;
+  left: 14px;
+}
+
+.artifact--info {
+  position: absolute;
+  bottom: -320px;
   left: 17px;
   font-family: Murmers;
   font-size: 20px;
