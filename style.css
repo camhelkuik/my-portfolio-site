@@ -306,15 +306,17 @@ h1, p {
 
 .content--title{
   position: absolute;
-  top: 0px;
-  left: 16px;
+  top: -20px;
+  left: 25px;
   font-family: Murmers;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .content--skills {
   color: white;
   font-family: Murmers;
+  position: relative;
+  top: 40px;
 }
 
 .content--skills li{
@@ -322,29 +324,35 @@ h1, p {
 }
 
 .skills--1{
-  
+  position: absolute;
+  top: 5px;
+  left: -15px;
 }
 
 .skills--2{
-  
+  position: absolute;
+  top: 5px;
+  left: 115px;
 }
 
 .skills--3{
-  
+  position: absolute;
+  top: 5px;
+  left: 306px;
 }
 
 .content--education{
   position: relative;
-  top: 5px;
+  top: 208px;
   left: 5px;
 }
 
 .education--title{
   position: absolute;
-  top: -53px;
-  left: 16px;
+  top: -75px;
+  left: 19px;
   font-family: Murmers;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .OCS--title{
@@ -352,14 +360,14 @@ h1, p {
   font-size: 25px;
   color: white;
   position: absolute;
-  top: -19px;
-  left: 14px;
+  top: -15px;
+  left: 20px;
 }
 
 .OCS--info {
   position: absolute;
   top: 15px;
-  left: 17px;
+  left: 20px;
   font-family: Murmers;
   font-size: 20px;
 }
@@ -369,30 +377,30 @@ h1, p {
   font-size: 25px;
   color: white;
   position: absolute;
-  top: 69px;
-  left: 14px;
+  top: 72px;
+  left: 20px;
 }
 
 .UNL--info {
   position: absolute;
   top: 104px;
-  left: 17px;
+  left: 20px;
   font-family: Murmers;
   font-size: 20px;
 }
 
 .content--jobs{
   position: relative;
-  top: 5px;
+  top: 230px;
   left: 5px;
 }
 
 .jobs--title {
   position: absolute;
   bottom: -223px;
-  left: 15px;
+  left: 20px;
   font-family: Murmers;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .artifact--title{
