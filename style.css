@@ -275,7 +275,6 @@ h1, p {
   height: 700px;
   background-color: black;
   position: relative;
-  margin-top: -16px;
 }
 
 .resume--title{
@@ -315,30 +314,43 @@ h1, p {
 }
 
 .content--education{
-  float: left;
-  width: 50%;
   position: relative;
   top: 5px;
   left: 5px;
 }
 
 .OCS--title{
-  float: right;
-  width: 50%;
   font-family: Murmers;
-  font-size: 50px;
+  font-size: 25px;
   color: white;
   position: absolute;
-  top: 80px;
-  left: 160px
+  top: -19px;
+  left: 14px;
 }
 
 .OCS--info {
   position: absolute;
-  top: 165px;
+  top: 15px;
   left: 17px;
   font-family: Murmers;
+  font-size: 20px;
+}
+
+.UNL--title{
+  font-family: Murmers;
   font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 69px;
+  left: 14px;
+}
+
+.UNL--info {
+  position: absolute;
+  top: 104px;
+  left: 17px;
+  font-family: Murmers;
+  font-size: 20px;
 }
 
 /*Other Section*/
