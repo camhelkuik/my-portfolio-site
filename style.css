@@ -240,7 +240,7 @@ h1, p {
   font-size: 25px;
 }
 
-.code--order-supply{
+.code--password{
   float: right;
   width: 50%;
   position: relative;
@@ -248,14 +248,14 @@ h1, p {
   left: 5px;
 }
 
-.order-supply--img {
+.password--img {
   width: 35%;
   position: absolute;
   top: 30px;
   right: 25px;
 }
 
-.order-supply--title{
+.password--title{
   float: right;
   width: 50%;
   font-family: Murmers;
@@ -266,7 +266,7 @@ h1, p {
   left: 110px;
 }
 
-.order-supply--content {
+.password--content {
   position: absolute;
   top: 165px;
   left: 17px;
