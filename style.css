@@ -25,6 +25,11 @@ h1, p {
   color: white;
 }
 
+.links {
+    color: white;
+}
+
+
 /*Home Section*/
 .home{
   width: 100%;
@@ -321,6 +326,7 @@ h1, p {
 
 .content--skills li{
   list-style-type: none;
+  font-size: 18px;
 }
 
 .skills--1{
@@ -332,18 +338,18 @@ h1, p {
 .skills--2{
   position: absolute;
   top: 5px;
-  left: 115px;
+  left: 125px;
 }
 
 .skills--3{
   position: absolute;
   top: 5px;
-  left: 306px;
+  left: 336px;
 }
 
 .content--education{
   position: relative;
-  top: 208px;
+  top: 215px;
   left: 5px;
 }
 
