@@ -26,7 +26,7 @@ h1, p {
 }
 
 .links {
-    color: white;
+  color: white;
 }
 
 
@@ -277,7 +277,7 @@ h1, p {
 /*Resume Section*/
 .resume {
   width: 100%;
-  height: 725px;
+  height: 800px;
   background-color: black;
   position: relative;
 }
@@ -311,7 +311,7 @@ h1, p {
 
 .content--title{
   position: absolute;
-  top: -20px;
+  top: -6px;
   left: 25px;
   font-family: Murmers;
   font-size: 40px;
@@ -321,12 +321,12 @@ h1, p {
   color: white;
   font-family: Murmers;
   position: relative;
-  top: 40px;
+  top: 55px;
 }
 
 .content--skills li{
   list-style-type: none;
-  font-size: 18px;
+  font-size: 21px;
 }
 
 .skills--1{
@@ -338,18 +338,18 @@ h1, p {
 .skills--2{
   position: absolute;
   top: 5px;
-  left: 125px;
+  left: 155px;
 }
 
 .skills--3{
   position: absolute;
   top: 5px;
-  left: 336px;
+  left: 405px;
 }
 
 .content--education{
   position: relative;
-  top: 215px;
+  top: 255px;
   left: 5px;
 }
 
@@ -397,7 +397,7 @@ h1, p {
 
 .content--jobs{
   position: relative;
-  top: 230px;
+  top: 290px;
   left: 5px;
 }
 
@@ -592,6 +592,8 @@ h1, p {
 .contact--all {
   position: relative;
   top: 55px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact--email-title{
@@ -601,14 +603,15 @@ h1, p {
   font-size: 50px;
   color: white;
   position: absolute;
-  top: 0px;
-  left: 15px
+  top: 219px;
+  left: 125px;
+ 
 }
 
 .email-title--address {
   position: absolute;
-  top: 35px;
-  left: 145px;
+  top: 250px;
+  left: 245px;
   font-family: Murmers;
   font-size: 25px;
 }
@@ -620,17 +623,10 @@ h1, p {
   font-size: 50px;
   color: white;
   position: absolute;
-  top: 90px;
-  left: 15px
+  top: 50px;
+  left: 240px;
 }
 
-.git--address {
-  position: absolute;
-  top: 119px;
-  left: 160px;
-  font-family: Murmers;
-  font-size: 25px;
-}
 
 .contact--linkedin{
   float: right;
@@ -639,17 +635,10 @@ h1, p {
   font-size: 50px;
   color: white;
   position: absolute;
-  top: 176px;
-  left: 15px
+  top: 125px;
+  left: 229px;
 }
 
-.linkedin--address {
-  position: absolute;
-  top: 206px;
-  left: 184px;
-  font-family: Murmers;
-  font-size: 25px;
-}
 
 .contact--twitter{
   float: right;
@@ -658,14 +647,7 @@ h1, p {
   font-size: 50px;
   color: white;
   position: absolute;
-  top: 260px;
-  left: 15px
-}
-
-.twitter--address {
-  position: absolute;
-  top: 291px;
-  left: 189px;
-  font-family: Murmers;
-  font-size: 25px;
+  top: 195px;
+  left: 228px;
+  
 }
