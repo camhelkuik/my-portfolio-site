@@ -6,19 +6,45 @@ html {
   box-sizing: inherit;
 }
 
-@font-face {
+/*@font-face {
   font-family: Maxim;
   src: url(../Fonts/Maxim.otf);
-}
+}*/
 
 @font-face {
+	font-family:'Maxim-Regular';
+	src: url('Maxim_gdi.eot');
+	src: url('Maxim_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Maxim_gdi.woff') format('woff'),
+		url('Maxim_gdi.ttf') format('truetype'),
+		url('Maxim_gdi.svg#Maxim-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+001D-2265;
+}
+
+/*@font-face {
   font-family: Murmers;
   src: url(../Fonts/Murmers.otf);
+}*/
+
+@font-face {
+	font-family:'Murmers-Regular';
+	src: url('Murmers_gdi.eot');
+	src: url('Murmers_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Murmers_gdi.woff') format('woff'),
+		url('Murmers_gdi.ttf') format('truetype'),
+		url('Murmers_gdi.svg#Murmers-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2122;
 }
 
 body{
-  min-width: 100%;
-  margin: 0;
+  width: 100%;
+  margin: 0px 0 0px 0;
 }
 
 h1, p {
@@ -39,6 +65,7 @@ h1, p {
   width: 100%;
   height: 615px;
   background-color: black;
+  position: relative;
 }
 
 .home--title{
@@ -71,7 +98,7 @@ h1, p {
   position: relative;
   top: 205px;
   left: 10px;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   font-size: 35px;
   padding-right: 30px;
 }
@@ -80,7 +107,7 @@ h1, p {
   position:absolute;
   top:0;
   left:0;
-  background-color:rgba(255, 200, 11, 0.30);
+  background-color: rgba(255, 200, 11, 0.30);
   z-index: 1;
   width: 50%;
   height: 100%;
@@ -109,7 +136,7 @@ h1, p {
   position:absolute;
   top:0;
   right:0;
-  background-color:rgba(255, 200, 11, 0.80);
+  background-color: rgba(255, 200, 11, 0.80);
   z-index: 1;
   width: 50%;
   height: 100%;
@@ -143,7 +170,7 @@ h1, p {
   position: absolute;
   top: 165px;
   left: 17px;
-  font-family: Murmers;
+font-family: 'Voltaire', sans-serif;
   font-size: 25px;
 }
 
@@ -177,7 +204,7 @@ h1, p {
   position: absolute;
   top: 165px;
   left: 17px;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   font-size: 25px;
 }
 
@@ -240,7 +267,7 @@ h1, p {
   position: absolute;
   top: 165px;
   left: 17px;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   font-size: 25px;
 }
 
@@ -274,7 +301,7 @@ h1, p {
   position: absolute;
   top: 165px;
   left: 17px;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   font-size: 25px;
 }
 
@@ -323,7 +350,7 @@ h1, p {
 
 .content--skills {
   color: white;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   position: relative;
   top: 55px;
 }
@@ -378,7 +405,7 @@ h1, p {
   position: absolute;
   top: 15px;
   left: 20px;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   font-size: 20px;
 }
 
@@ -395,7 +422,7 @@ h1, p {
   position: absolute;
   top: 104px;
   left: 20px;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   font-size: 20px;
 }
 
@@ -426,7 +453,7 @@ h1, p {
   position: absolute;
   bottom: -320px;
   left: 17px;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   font-size: 20px;
   margin-right: 5px;
 }
@@ -444,7 +471,7 @@ h1, p {
   position: absolute;
   bottom: -410px;
   left: 17px;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   font-size: 20px;
   margin-right: 5px;
 }
@@ -462,7 +489,7 @@ h1, p {
   position: absolute;
   bottom: -500px;
   left: 17px;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   font-size: 20px;
   margin-right: 5px;
 }
@@ -526,7 +553,7 @@ h1, p {
   position: absolute;
   top: 165px;
   left: 17px;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   font-size: 25px;
 }
 
@@ -560,7 +587,7 @@ h1, p {
   position: absolute;
   top: 165px;
   left: 17px;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   font-size: 25px;
 }
 
@@ -616,7 +643,7 @@ h1, p {
   position: absolute;
   top: 250px;
   left: 245px;
-  font-family: Murmers;
+  font-family: 'Voltaire', sans-serif;
   font-size: 25px;
 }
 
