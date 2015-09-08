@@ -97,7 +97,7 @@ h1, p {
 .intro--paragraph{
   position: relative;
   top: 205px;
-  left: 10px;
+  left: 15px;
   font-family: 'Voltaire', sans-serif;
   font-size: 35px;
   padding-right: 30px;
@@ -172,6 +172,7 @@ h1, p {
   left: 17px;
 font-family: 'Voltaire', sans-serif;
   font-size: 25px;
+  margin-right: 5px;
 }
 
 .web--megan-smith{
@@ -206,6 +207,7 @@ font-family: 'Voltaire', sans-serif;
   left: 17px;
   font-family: 'Voltaire', sans-serif;
   font-size: 25px;
+  margin-right: 5px;
 }
 
 /*Code Section*/
@@ -269,6 +271,7 @@ font-family: 'Voltaire', sans-serif;
   left: 17px;
   font-family: 'Voltaire', sans-serif;
   font-size: 25px;
+  margin-right: 5px;
 }
 
 .code--password{
@@ -303,12 +306,13 @@ font-family: 'Voltaire', sans-serif;
   left: 17px;
   font-family: 'Voltaire', sans-serif;
   font-size: 25px;
+  margin-right: 5px;
 }
 
 /*Resume Section*/
 .resume {
   width: 100%;
-  height: 800px;
+  height: 850px;
   background-color: black;
   position: relative;
 }
@@ -380,7 +384,7 @@ font-family: 'Voltaire', sans-serif;
 
 .content--education{
   position: relative;
-  top: 255px;
+  top: 275px;
   left: 5px;
 }
 
@@ -428,7 +432,7 @@ font-family: 'Voltaire', sans-serif;
 
 .content--jobs{
   position: relative;
-  top: 290px;
+  top: 305px;
   left: 5px;
 }
 
@@ -487,7 +491,7 @@ font-family: 'Voltaire', sans-serif;
 
 .NHS--info {
   position: absolute;
-  bottom: -500px;
+  bottom: -525px;
   left: 17px;
   font-family: 'Voltaire', sans-serif;
   font-size: 20px;
