@@ -115,19 +115,13 @@ h1, p {
   position: relative;
 }
 
-/*.web--yellow-section {
-    float: right;
-    width: 50%;
-}*/
-
-.web--title{
-  width: 50%;
-  font-family: Maxim;
-  font-size: 125px;
-  position: absolute;
-  top: 150px;
-  right: -165px;
-  z-index: 2;
+.web--title {
+    font-family: Maxim;
+    font-size: 125px;
+    position: absolute;
+    top: 150px;
+    left: 788px;
+    z-index: 2;
 }
 
 .web--overlay {
@@ -210,11 +204,6 @@ font-family: 'Voltaire', sans-serif;
   background-color: black;
   position: relative;
 }
-
-/*.code--yellow-space {
-    float: left;
-    width: 50%;
-}*/
 
 .code--title{
   float: left;
@@ -312,19 +301,13 @@ font-family: 'Voltaire', sans-serif;
   position: relative;
 }
 
-/*.resume--yellow-section {
-    float: right;
-    width: 50%;
-}*/
-
-.resume--title{
-  width: 50%;
-  font-family: Maxim;
-  font-size: 125px;
-  position: absolute;
-  top: 225px;
-  right: -165px;
-  z-index: 2;
+.resume--title {
+    font-family: Maxim;
+    font-size: 125px;
+    position: absolute;
+    top: 225px;
+    left: 795px;
+    z-index: 2;
 }
 
 .resume--overlay {
@@ -503,11 +486,6 @@ font-family: 'Voltaire', sans-serif;
   position: relative;
 }
 
-/*.other--yellow-section {
-    float: left;
-    width: 50%;
-}*/
-
 .other--title{
   width: 50%;
   font-family: Maxim;
@@ -601,18 +579,12 @@ font-family: 'Voltaire', sans-serif;
   position: relative;
 }
 
-/*.contact--yellow-section {
-    float: right;
-    width: 50%;
-}*/
-
 .contact--title {
-    width: 27%;
     font-family: Maxim;
     font-size: 125px;
     position: absolute;
     top: 80px;
-    right: 145px;
+    left: 795px;
     z-index: 2;
 }
 
