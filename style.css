@@ -98,6 +98,7 @@ h1, p {
   font-family: 'Voltaire', sans-serif;
   font-size: 35px;
   padding-right: 30px;
+  width: 96%;
 }
 
 .title--overlay {
@@ -258,6 +259,7 @@ font-family: 'Voltaire', sans-serif;
   font-family: 'Voltaire', sans-serif;
   font-size: 25px;
   margin-right: 5px;
+  width: 96%;
 }
 
 .code--password{
@@ -292,6 +294,7 @@ font-family: 'Voltaire', sans-serif;
   font-family: 'Voltaire', sans-serif;
   font-size: 25px;
   margin-right: 5px;
+  width: 96%;
 }
 
 /*Resume Section*/
@@ -537,6 +540,7 @@ font-family: 'Voltaire', sans-serif;
   left: 17px;
   font-family: 'Voltaire', sans-serif;
   font-size: 25px;
+  width: 96%;
 }
 
 .other--BKB{
@@ -570,6 +574,7 @@ font-family: 'Voltaire', sans-serif;
   left: 17px;
   font-family: 'Voltaire', sans-serif;
   font-size: 25px;
+  width: 96%;
 }
 
 /*Contact Setion*/
