@@ -38,6 +38,8 @@ body{
 
 h1, p {
   color: white;
+  left: 0;
+  margin-right: 10px;
 }
 
 .links {
@@ -58,7 +60,7 @@ h1, p {
 
 .home--title {
     background-image: url("assets/main-pic.jpg");
-    float: left;
+/*    float: left;*/
     width: 50%;
     height: 640px;
     position: absolute;
@@ -113,10 +115,10 @@ h1, p {
   position: relative;
 }
 
-.web--yellow-section {
+/*.web--yellow-section {
     float: right;
     width: 50%;
-}
+}*/
 
 .web--title{
   width: 50%;
@@ -209,10 +211,10 @@ font-family: 'Voltaire', sans-serif;
   position: relative;
 }
 
-.code--yellow-space {
+/*.code--yellow-space {
     float: left;
     width: 50%;
-}
+}*/
 
 .code--title{
   float: left;
@@ -310,10 +312,10 @@ font-family: 'Voltaire', sans-serif;
   position: relative;
 }
 
-.resume--yellow-section {
+/*.resume--yellow-section {
     float: right;
     width: 50%;
-}
+}*/
 
 .resume--title{
   width: 50%;
@@ -501,10 +503,10 @@ font-family: 'Voltaire', sans-serif;
   position: relative;
 }
 
-.other--yellow-section {
+/*.other--yellow-section {
     float: left;
     width: 50%;
-}
+}*/
 
 .other--title{
   width: 50%;
@@ -599,19 +601,19 @@ font-family: 'Voltaire', sans-serif;
   position: relative;
 }
 
-.contact--yellow-section {
+/*.contact--yellow-section {
     float: right;
     width: 50%;
-}
+}*/
 
-.contact--title{
-  width: 50%;
-  font-family: Maxim;
-  font-size: 125px;
-  position: absolute;
-  top: 80px;
-  right: -165px;
-  z-index: 2;
+.contact--title {
+    width: 27%;
+    font-family: Maxim;
+    font-size: 125px;
+    position: absolute;
+    top: 80px;
+    right: 145px;
+    z-index: 2;
 }
 
 .contact--overlay {
