@@ -1,15 +1,9 @@
 html {
   box-sizing: border-box;
-  margin-top: -35px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-/*@font-face {
-  font-family: Maxim;
-  src: url(../Fonts/Maxim.otf);
-}*/
 
 @font-face {
 	font-family:'Maxim-Regular';
@@ -23,11 +17,6 @@ html {
 	font-stretch: normal;
 	unicode-range: U+001D-2265;
 }
-
-/*@font-face {
-  font-family: Murmers;
-  src: url(../Fonts/Murmers.otf);
-}*/
 
 @font-face {
 	font-family:'Murmers-Regular';
@@ -61,18 +50,24 @@ h1, p {
 
 
 /*Home Section*/
-.home{
-  width: 100%;
-  height: 615px;
-  background-color: black;
-  position: relative;
+.home {
+    height: 640px;
+    background-color: black;
+    position: relative;
 }
 
-.home--title{
-  background-image: url("assets/main-pic.jpg");
-  float: left;
-  width: 50%;
-  height: 100%;
+.home--title {
+    background-image: url("assets/main-pic.jpg");
+    float: left;
+    width: 50%;
+    height: 640px;
+    position: absolute;
+  }
+
+.home--intro {
+    float: right;
+    width: 50%;
+    background-color: black;
 }
 
 .home--title h1{
@@ -104,25 +99,26 @@ h1, p {
 }
 
 .title--overlay {
-  position:absolute;
-  top:0;
-  left:0;
-  background-color: rgba(255, 200, 11, 0.30);
-  z-index: 1;
-  width: 50%;
-  height: 100%;
+    position: absolute;
+    background-color: rgba(255, 200, 11, 0.30);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
 }
 
 /*Web Section*/
 .web {
-  width: 100%;
   height: 750px;
   background-color: black;
   position: relative;
 }
 
+.web--yellow-section {
+    float: right;
+    width: 50%;
+}
+
 .web--title{
-  float: right;
   width: 50%;
   font-family: Maxim;
   font-size: 125px;
@@ -143,7 +139,6 @@ h1, p {
 }
 
 .web--new-grit{
-/*  float: left;*/
   width: 50%;
   position: relative;
 }
@@ -156,7 +151,6 @@ h1, p {
 }
 
 .new-grit--title{
-  float: right;
   width: 50%;
   font-family: Murmers;
   font-size: 50px;
@@ -176,7 +170,6 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .web--megan-smith{
-/*  float: left;*/
   width: 50%;
   position: relative;
   top: 325px;
@@ -186,12 +179,11 @@ font-family: 'Voltaire', sans-serif;
 .megan-smith--img {
   width: 35%;
   position: absolute;
-  top: 11px;
-  right: 13px;
+  top: 48px;
+  right: 20px;
 }
 
 .megan-smith--title{
-  float: right;
   width: 50%;
   font-family: Murmers;
   font-size: 50px;
@@ -212,10 +204,14 @@ font-family: 'Voltaire', sans-serif;
 
 /*Code Section*/
 .code {
-  width: 100%;
   height: 725px;
   background-color: black;
   position: relative;
+}
+
+.code--yellow-space {
+    float: left;
+    width: 50%;
 }
 
 .code--title{
@@ -255,7 +251,6 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .orm--title{
-  float: right;
   width: 50%;
   font-family: Murmers;
   font-size: 50px;
@@ -290,7 +285,6 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .password--title{
-  float: right;
   width: 50%;
   font-family: Murmers;
   font-size: 50px;
@@ -311,14 +305,17 @@ font-family: 'Voltaire', sans-serif;
 
 /*Resume Section*/
 .resume {
-  width: 100%;
   height: 850px;
   background-color: black;
   position: relative;
 }
 
+.resume--yellow-section {
+    float: right;
+    width: 50%;
+}
+
 .resume--title{
-  float: right;
   width: 50%;
   font-family: Maxim;
   font-size: 125px;
@@ -339,7 +336,6 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .resume--content{
-/*  float: left;*/
   width: 50%;
   position: relative;
 }
@@ -500,14 +496,17 @@ font-family: 'Voltaire', sans-serif;
 
 /*Other Section*/
 .other {
-  width: 100%;
   height: 700px;
   background-color: black;
   position: relative;
 }
 
+.other--yellow-section {
+    float: left;
+    width: 50%;
+}
+
 .other--title{
-  float: left;
   width: 50%;
   font-family: Maxim;
   font-size: 110px;
@@ -543,7 +542,6 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .VF--title{
-  float: right;
   width: 50%;
   font-family: Murmers;
   font-size: 50px;
@@ -577,7 +575,6 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .BKB--title{
-  float: right;
   width: 50%;
   font-family: Murmers;
   font-size: 50px;
@@ -597,14 +594,17 @@ font-family: 'Voltaire', sans-serif;
 
 /*Contact Setion*/
 .contact {
-  width: 100%;
   height: 500px;
   background-color: black;
   position: relative;
 }
 
+.contact--yellow-section {
+    float: right;
+    width: 50%;
+}
+
 .contact--title{
-  float: right;
   width: 50%;
   font-family: Maxim;
   font-size: 125px;
@@ -632,7 +632,6 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .contact--email-title{
-/*  float: right;*/
   width: 50%;
   font-family: Murmers;
   font-size: 50px;
@@ -652,7 +651,6 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .contact--git{
-/*  float: right;*/
   width: 50%;
   font-family: Murmers;
   font-size: 50px;
@@ -664,7 +662,6 @@ font-family: 'Voltaire', sans-serif;
 
 
 .contact--linkedin{
-/*  float: right;*/
   width: 50%;
   font-family: Murmers;
   font-size: 50px;
@@ -676,7 +673,6 @@ font-family: 'Voltaire', sans-serif;
 
 
 .contact--twitter{
-/*  float: right;*/
   width: 50%;
   font-family: Murmers;
   font-size: 50px;
