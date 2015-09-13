@@ -10,7 +10,7 @@
   }
 };
 
-window.onscroll = showNewGrit;
+window.onscroll = showNewGrit();
 
 
 // function testScroll(ev){
