@@ -50,6 +50,13 @@ h1, p {
   clear: both;
 }
 
+.beforeScroll{
+  display: none;
+}
+
+.afterScroll{
+  display: block;
+}
 
 /*Home Section*/
 .home {
