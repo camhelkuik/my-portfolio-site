@@ -1,56 +1,30 @@
 
 
-var newGrit = document.getElementsByClassName("web--new-grit");
 
-  window.onscroll = showNewGrit;
 
   function showNewGrit() {
+    var newGrit = document.getElementsByClassName("web--new-grit");
+
     if (window.pageYOffset>100) {
       newGrit.classList.remove("beforeScroll");
   }
-}
+};
+
+window.onscroll = showNewGrit;
 
 
-
-// window.onload
-// function showNewGrit(){
-//   var newGrit = document.getElementsByClassName("web--new-grit");
-//
-//   // var posNewGrit = newGrit.position();
-//
-//   var posNewGrit = {};
-//   window.onscroll = getScrollPosition;
-//
-//   function getScrollPosition(){
-//       posNewGrit = {
-//          y: window.pageYOffset
-//       }
-//       // If you want to check distance
-//       if(posNewGrit.y > 200) {
-//         newGrit.addClass("afterScroll");
-//       }
-//   }
-  
-  // (window).scroll(function(){
- //    var windowPos = (window).scrollTop();
- //    if (windowPos >= (posNewGrit.top - 50)){
- //      newGrit.addClass("afterScroll");
- //    }
- //  });
-// };
-
-// showNewGrit();
-
-
-// var scrollObject = {};
-// window.onscroll = getScrollPosition;
-//
-// function getScrollPosition(){
-//     scrollObject = {
-//        y: window.pageYOffset
-//     }
-//     // If you want to check distance
-//     if(scrollObject.y > 200) {
-//       newGrit.addClass("afterScroll");
-//     }
+// function testScroll(ev){
+//     if(window.pageYOffset>=150) startAnimation();
 // }
+//
+// window.onscroll=testScroll
+//
+// var newGrit = document.getElementsByClassName("web--new-grit");
+//
+// function startAnimation() {
+//
+//   // newGrit.removeClass("beforeScroll");
+//   newGrit.removeAttribute("beforeScroll");
+//
+// }
+
