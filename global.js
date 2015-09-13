@@ -5,8 +5,8 @@ var newGrit = document.getElementsByClassName("web--new-grit");
   window.onscroll = showNewGrit;
 
   function showNewGrit() {
-    if (window.pageYOffset>120) {
-    newGrit.addClass = "afterScroll"
+    if (window.pageYOffset>100) {
+      newGrit.classList.remove("beforeScroll");
   }
 }
 
