@@ -196,7 +196,7 @@
             s.async = true;
             var u = '//stage.travefy.com/scripts/embed/itinerary.0.1.js';
             s.src = u + (u.indexOf("?") >= 0 ? "&" : "?") + 'ref=' + encodeURIComponent(window.location.href);
-            var e = document.getElementById('itinerary-embedder');
+            var e = document.getElementById('travefy-itinerary-embedder');
             e.parentNode.insertBefore(s, e);
         }
         if (window.attachEvent) { window.attachEvent('onload', l); } else { window.addEventListener('load', l, false); }
