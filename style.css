@@ -31,6 +31,10 @@ html {
   unicode-range: U+0020-2122;
 }
 
+.travefy-itinerary{
+  width: 100%;
+}
+
 body{
   width: 100%;
   margin: 0px 0 0px 0;
