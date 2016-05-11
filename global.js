@@ -2,15 +2,15 @@
 
 
 
-  function showNewGrit() {
-    var newGrit = document.getElementsByClassName("web--new-grit");
-
-    if (window.pageYOffset>100) {
-      newGrit.classList.remove("beforeScroll");
-  }
-};
-
-window.onscroll = showNewGrit();
+//   function showNewGrit() {
+//     var newGrit = document.getElementsByClassName("web--new-grit");
+//
+//     if (window.pageYOffset>100) {
+//       newGrit.classList.remove("beforeScroll");
+//   }
+// };
+//
+// window.onscroll = showNewGrit();
 
 
 // function testScroll(ev){
